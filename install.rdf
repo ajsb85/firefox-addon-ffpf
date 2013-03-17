@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This Source Code Form is subject to the terms of the Mozilla Public
+   - License, v. 2.0. If a copy of the MPL was not distributed with this
+   - file, You can obtain one at http://mozilla.org/MPL/2.0/. --><RDF xmlns="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:em="http://www.mozilla.org/2004/em-rdf#">
+  <Description about="urn:mozilla:install-manifest">
+    <em:id>03c82d90-8f12-11e2-9e96-0800200c9a66@jetpack</em:id>
+    <em:version>1.0.rev26</em:version>
+    <em:type>2</em:type>
+    <em:bootstrap>true</em:bootstrap>
+    <em:unpack>false</em:unpack>
+
+    <!-- Firefox -->
+    <em:targetApplication>
+      <Description>
+        <em:id>{ec8030f7-c20a-464f-9b0e-13a3a9e97384}</em:id>
+        <em:minVersion>18.0</em:minVersion>
+        <em:maxVersion>21.*</em:maxVersion>
+      </Description>
+    </em:targetApplication>
+
+    <!-- Front End MetaData -->
+    <em:name>First Facebook Pages Feeds</em:name>
+    <em:description>The Facebook Home redirect to Facebook Pages Feeds.
+
+Recent updates from Pages you&amp;#39;re connected to</em:description>
+    <em:creator>alexandersalas</em:creator>
+    <em:homepageURL>https://github.com/alexsalas/first-facebook-pages-feeds</em:homepageURL>
+    
+    
+  </Description>
+</RDF>
